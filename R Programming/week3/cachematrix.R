@@ -1,3 +1,4 @@
+
 #makeCacheMatrix
 # - Takes a matrix as an argument and returns a list of functions for preforming get 
 # - and set operations on the matrix and it's inverse. 
@@ -26,6 +27,7 @@ makeCacheMatrix <- function(x = matrix()) {
     getInverse = getInverse
   );
 }
+
 #cacheSolve
 # - Expects a makeCacheMatrix object as argument x, which contains a square invertible matrix.
 # - If the x$getInverse returns NULL, the inverse is calculated and then cached.
